@@ -9,7 +9,7 @@ After that you should open a python shell. Run the code until line 51 (the start
 Then,
 (1) run line 51 to 76 . The learner will query the samples using max uncertainty. Then you should go to argilla dataset 
 localhost:6900/datasets. If it asks for a password, the user is argilla and password is 1234
-Then you should enter the dataset and see the samples. Click on hand labeling (see the section option on Mode on the right side of the computer) 
+Then you should enter the dataset and see the samples. Click on hand labeling (see the second option on Mode on the right side of the computer) 
 and choose the label for each sample. To just see the unlabeled samples click on status and filter default.
 
 Then (2)continue the loop from running line 80 to 97 to teach the classifier with the annotated samples. 
